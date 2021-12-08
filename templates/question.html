@@ -11,10 +11,10 @@
         function test(q) {
             try{
             var selected_answer = document.querySelector('input[name="check-option"]:checked').value;
-            console.log(q)
+//             console.log(q)
             // var c=document.querySelector('input[name="options"]:checked').value;
             var page_number = parseInt(document.getElementById("new").value);
-            console.log("ssda")
+//             console.log("ssda")
 
             document.getElementById("next").href = "/home?page=" + (page_number + 1) + "&option=" + selected_answer + "&ques_id="+q;
             }
