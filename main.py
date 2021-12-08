@@ -42,7 +42,7 @@ class Users(db.Model):
     date = db.Column(db.String(12), nullable=False)
 
 
-@app.route("/",methods=['POST','GET'])
+@app.route("/",methods=['POST'])
 def login():
     return render_template('index.html')
 
